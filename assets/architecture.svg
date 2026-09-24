@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="540" viewBox="0 0 1200 540">
+  <rect width="1200" height="540" fill="#ffffff"/>
+  <text x="600" y="55" text-anchor="middle" font-family="Arial, sans-serif" font-size="30" font-weight="700" fill="#111827">AI Video Generation Pipeline</text>
+  <text x="600" y="88" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" fill="#4b5563">Private implementation • Public architecture showcase</text>
+  <g font-family="Arial, sans-serif" font-size="16" text-anchor="middle">
+    <rect x="40" y="190" width="130" height="72" rx="14" fill="#f3f4f6" stroke="#374151" stroke-width="2"/>
+    <text x="105" y="220" fill="#111827">Script +</text><text x="105" y="243" fill="#111827">Narration</text>
+    <rect x="200" y="190" width="125" height="72" rx="14" fill="#eef2ff" stroke="#4f46e5" stroke-width="2"/>
+    <text x="262" y="232" fill="#111827">Timestamp</text>
+    <rect x="355" y="190" width="135" height="72" rx="14" fill="#eef2ff" stroke="#4f46e5" stroke-width="2"/>
+    <text x="422" y="220" fill="#111827">Character</text><text x="422" y="243" fill="#111827">Board</text>
+    <rect x="520" y="190" width="135" height="72" rx="14" fill="#eef2ff" stroke="#4f46e5" stroke-width="2"/>
+    <text x="587" y="220" fill="#111827">Scene</text><text x="587" y="243" fill="#111827">Chunking</text>
+    <rect x="685" y="190" width="135" height="72" rx="14" fill="#eef2ff" stroke="#4f46e5" stroke-width="2"/>
+    <text x="752" y="220" fill="#111827">Frame</text><text x="752" y="243" fill="#111827">Cutting</text>
+    <rect x="850" y="190" width="135" height="72" rx="14" fill="#ecfdf5" stroke="#059669" stroke-width="2"/>
+    <text x="917" y="220" fill="#111827">Consistency</text><text x="917" y="243" fill="#111827">Check</text>
+    <rect x="1015" y="190" width="145" height="72" rx="14" fill="#fff7ed" stroke="#ea580c" stroke-width="2"/>
+    <text x="1087" y="220" fill="#111827">Image</text><text x="1087" y="243" fill="#111827">Generation</text>
+    <rect x="855" y="350" width="180" height="78" rx="14" fill="#f0fdf4" stroke="#16a34a" stroke-width="2"/>
+    <text x="945" y="383" fill="#111827">Video Assembly</text><text x="945" y="407" fill="#4b5563">FFmpeg + verification</text>
+    <rect x="1080" y="350" width="80" height="78" rx="14" fill="#f3f4f6" stroke="#374151" stroke-width="2"/>
+    <text x="1120" y="383" fill="#111827">MP4</text><text x="1120" y="406" fill="#4b5563">+ JSON</text>
+  </g>
+  <g stroke="#6b7280" stroke-width="3" fill="none">
+    <line x1="170" y1="226" x2="200" y2="226"/><polygon points="195,220 205,226 195,232" fill="#6b7280"/>
+    <line x1="325" y1="226" x2="355" y2="226"/><polygon points="350,220 360,226 350,232" fill="#6b7280"/>
+    <line x1="490" y1="226" x2="520" y2="226"/><polygon points="515,220 525,226 515,232" fill="#6b7280"/>
+    <line x1="655" y1="226" x2="685" y2="226"/><polygon points="680,220 690,226 680,232" fill="#6b7280"/>
+    <line x1="820" y1="226" x2="850" y2="226"/><polygon points="845,220 855,226 845,232" fill="#6b7280"/>
+    <line x1="985" y1="226" x2="1015" y2="226"/><polygon points="1010,220 1020,226 1010,232" fill="#6b7280"/>
+    <path d="M1087 262 L1087 305 L945 305 L945 350"/><polygon points="939,345 945,355 951,345" fill="#6b7280"/>
+    <line x1="1035" y1="389" x2="1080" y2="389"/><polygon points="1075,383 1085,389 1075,395" fill="#6b7280"/>
+  </g>
+  <rect x="140" y="320" width="580" height="130" rx="16" fill="#f9fafb" stroke="#d1d5db" stroke-width="2"/>
+  <text x="430" y="354" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="700" fill="#111827">Cross-cutting system behavior</text>
+  <text x="180" y="388" font-family="Arial, sans-serif" font-size="16" fill="#374151">• Phase/item resume and run-state tracking</text>
+  <text x="180" y="416" font-family="Arial, sans-serif" font-size="16" fill="#374151">• Artifact validation before reuse</text>
+  <text x="455" y="388" font-family="Arial, sans-serif" font-size="16" fill="#374151">• Configurable provider/model selection</text>
+  <text x="455" y="416" font-family="Arial, sans-serif" font-size="16" fill="#374151">• Gradio GUI + JSON/CSV contracts</text>
+</svg>
