@@ -43,13 +43,13 @@
     <line x1="1035" y1="389" x2="1080" y2="389"/><polygon points="1075,383 1085,389 1075,395" fill="#6b7280"/>
   </g>
 
-  <rect x="150" y="320" width="590" height="150" rx="16" fill="#f9fafb" stroke="#d1d5db" stroke-width="2"/>
-  <text x="445" y="354" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="700" fill="#111827">Cross-cutting system behavior</text>
+  <rect x="150" y="315" width="590" height="190" rx="16" fill="#f9fafb" stroke="#d1d5db" stroke-width="2"/>
+  <text x="445" y="350" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="700" fill="#111827">Cross-cutting system behavior</text>
 
   <g font-family="Arial, sans-serif" font-size="15" fill="#374151">
-    <text x="190" y="395">• Phase/item resume and run-state tracking</text>
-    <text x="190" y="430">• Artifact validation before reuse</text>
-    <text x="470" y="395">• Configurable provider/model selection</text>
-    <text x="470" y="430">• Gradio GUI + JSON/CSV contracts</text>
+    <text x="190" y="388">• Phase/item resume and run-state tracking</text>
+    <text x="190" y="418">• Artifact validation before reuse</text>
+    <text x="190" y="448">• Configurable provider/model selection</text>
+    <text x="190" y="478">• Gradio GUI + JSON/CSV contracts</text>
   </g>
 </svg>
